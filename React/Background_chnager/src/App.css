@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.Button_bar{
+background-color: rgb(109, 116, 119);
+border:2px solid black;
+border-radius:5px;
+width:500px;
+display:flex;
+justify-content:space-between
+}
+.Body{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+button{
+    padding:10px;margin:0px 15px;
+}
+
+button:hover{
+  width:90px;
+  height:60px
+}
